@@ -1,0 +1,66 @@
+.page {
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 80px;
+}
+
+.h1 {
+  padding-top: 24px;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #094b65;
+}
+
+.p {
+  padding-top: 24px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3d3d3d;
+  line-height: 40px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding: 24px;
+}
+
+.button2 {
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 9px;
+  background: #ffff;
+  border: #094b65 2px solid;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+  color: #094b65;
+}
+
+.button2:hover {
+  box-shadow: 7px 5px 56px -14px #083b50;
+}
+
+.button2:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #083b50;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 30px;
+  background: #094b65;
+  color: #ffff;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  transform: translateY(100px);
+}
